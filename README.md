@@ -10,10 +10,22 @@ Alice wishes to perform the addition of two 4-bit numbers using Quantum Circuits
 ## Adder Circuit 
 
 A single bit full adder circuit was made which takes 3 inputs, carry-in and the two bits and then it gives 2 outputs, 1 carry out bit and 1 S Sum bit.This single bit full adder was made using CX (CNOT) and CCX (Toffoli/CCNOT) gates. CX was mainly used as a XOR gate for evaluation of the S bit with toffoli gate used for carry-out calculations.
-Then as per the requirement of 4 bit adder, such 4 single bit adder circuit were cascaded to make the 4 bit adder. It requires 2 4-bit inputs A and B , along with 4 carry in quantum registers for interim calculations and give 5 bit output with a carry-out and 4 sum bits. 
-The adder was tested with the given test cases and gave satisfactory results. 
-Simulations were done using QASM simulator which was run by 2048 shots.
 
-### Made by
+![Alt text](public\image.png)
+
+
+Then as per the requirement of 4 bit adder, such 4 single bit adder circuit were cascaded to make the 4 bit adder. It requires 2 4-bit inputs A and B , along with 4 carry in quantum registers for interim calculations and give 5 bit output with a carry-out and 4 sum bits. 
+
+![Alt text](public\image-1.png)
+ 
+Simulations were done using QASM simulator which was run by 2048 shots in place of 1024 shots for more reliable results.
+
+## Results 
+
+Satisfactory Results were obtained for all the given test cases. 
+
+## Made by
 Arjun Angirishi <br>
 20112023 <br>
+
+#### For more details, Report added in the repository can be referred .
